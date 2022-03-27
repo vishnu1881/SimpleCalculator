@@ -1,0 +1,122 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	background-image: url(https://wallpaperaccess.com/full/327139.jpg);
+}
+
+.heading {
+
+	color: #ff0066;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	margin: 20px;
+	text-align: center;
+	font-weight: bolder;
+
+}
+
+#container {
+	margin: 20px auto;
+}
+
+#calculator {
+	width: 320px;
+	height: 520px;
+	background-color: #ff5050;
+	margin: 0 auto;
+	top: 20px;
+	position: relative;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#result {
+	height: 90px;
+}
+
+#history {
+	text-align: right;
+	height: 20px;
+	margin: 0 20px;
+	padding-top: 20px;
+	font-size: 20px;
+	color: #000000;
+}
+
+#output {
+	text-align: right;
+	height: 60px;
+	margin: 10px 20px;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+#keyboard {
+	height: 400px;
+}
+
+.operator, .number, .empty {
+	width: 50px;
+	height: 50px;
+	margin: 15px;
+	float: left;
+	border-radius: 50%;
+	border-width: 0;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.number, .empty {
+	background-color: #ff5050;
+}
+
+.number, .operator {
+	cursor: pointer;
+
+}
+
+.operator:active, .number:active {
+	font-size: 25px;
+}
+
+.operator:focus, .number:focus, .empty:focus {
+	outline: 0;
+}
+
+button:nth-child(1) {
+	font-size: 23px;
+	background-color: #33cccc;
+}
+
+button:nth-child(2) {
+	font-size: 23px;
+	background-color: #33cccc;
+}
+
+button:nth-child(3) {
+	font-size: 23px;
+	background-color: #ff9900;
+}
+
+button:nth-child(4) {
+	font-size: 23px;
+	background-color: #20b2aa;
+}
+
+button:nth-child(8) {
+	font-size: 23px;
+	background-color: #6a47e9;
+}
+
+button:nth-child(12) {
+	font-size: 23px;
+	background-color: #49e289;
+}
+
+button:nth-child(16) {
+	font-size: 23px;
+	background-color: #35f1d2;
+}
+
+button:nth-child(20) {
+	font-size: 23px;
+	background-color: #00ff4c;
+}
